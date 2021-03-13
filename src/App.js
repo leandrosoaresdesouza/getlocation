@@ -1,7 +1,7 @@
+import ReactGA from "react-ga";
 import logo from "./logo.svg";
 import "./App.css";
 import { useEffect } from "react";
-import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {
