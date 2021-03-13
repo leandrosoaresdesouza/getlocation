@@ -18,14 +18,14 @@ const injectGA = () => {
 };
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-KDWJTZRBTR"
   />,
   <script>{injectGA()}</script>,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
